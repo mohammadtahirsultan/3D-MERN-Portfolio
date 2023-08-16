@@ -27,7 +27,7 @@ userRouter.route("/user").get(getUser);
 userRouter.route("/contact").post(contact);
 
 // admin routes
-userRouter.route("/me").get(isAuthenticated, myProfile);
+userRouter.route("/me").get( myProfile);
 
 userRouter.route("/admin/update").put(isAuthenticated, updateUser);
 
