@@ -1,6 +1,6 @@
 {
     "version": 2,
-    "name": "native-server",
-    "builds": [{ "src": "node server.js", "use": "@vercel/node" }],
-    "routes": [{ "src": "/(.*)", "dest": "node server.js" }]
+    "name": "ECOMMERCE-MERN",
+    "builds": [{ "src": "server.js", "use": "@vercel/node" }],
+    "routes": [{ "src": "/(.*)", "dest": "/server.js" }]
   }
