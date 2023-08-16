@@ -8,7 +8,7 @@ app.use(express.json({ limit: "50mb" }));
 app.use(express.urlencoded({ extended: true, limit: "50mb" }));
 app.use(cookieParser());
 app.use(cors({
-  origin: "localhost:3000"
+  origin: "https://3d-mern-portfolio.netlify.app"
 }))
 
 app.use("/api/v1", userRouter);
